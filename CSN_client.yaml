@@ -1,0 +1,26 @@
+building: My Building
+client_id: T000001
+floor: '1'
+latitude: 34.000
+longitude: -118.000
+name: My Sensor
+operating_system: null
+registered: true
+sensors:
+- class: PhidgetsSensor
+  datastore: !!python/unicode '/var/tmp/phidgetsdata'
+  decimation: 5
+  last_upload: !!python/unicode '/var/tmp/phidgetsdata/50_20180919T153729.dat'
+  module: PhidgetsSensor
+  pick_threshold: 0.01
+  picker: true
+  sensor_id: !!python/long '0'
+  serial: '366617'
+server: XXXXXXXXXXXX.amazonaws.com
+software_version: PyAmazonCSN Client v2.0 2018/05/11
+time_servers:
+- ntp-02.caltech.edu
+- 3.us.pool.ntp.org
+- 2.us.pool.ntp.org
+- 1.us.pool.ntp.org
+- 0.us.pool.ntp.org
